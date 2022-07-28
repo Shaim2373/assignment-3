@@ -52,6 +52,7 @@
                 <div class="carousel-caption d-md-block d-flex justify-content-center">
                     <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p>
+                    <button class="btn btn-primary">Get Started</button>
                 </div>
             </div>
             <div class="carousel-item">
@@ -85,8 +86,8 @@
 <section>
     <div class="container my-5">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="card col-md-12 cols-sm-d-flex-column d-flex flex-row align-items-center">
+            <div class="col-lg-6 mb-5">
+                <div id="card" class="card col-md-12 d-flex flex-row align-items-center">
                     <img src="img/card-img/course-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -96,22 +97,17 @@
                   </div>
             </div>
             <div class="col-lg-6">
-                <div class="card d-flex flex-row align-items-center">
+                <div id="card" class="card d-flex flex-row align-items-center">
                     <img src="img/card-img/course-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <h1>Price : $40</h1>
                     </div>
-                  </div>
+                  </div> 
             </div>
-        </div>
-    </div>
-    
-    <div class="container my-5">
-      <div class="row">
-          <div class="col-lg-6 col-md-12 d-sm-block">
-              <div class="card d-flex flex-row align-items-center">
+            <div class="col-lg-6 col-md-12 mt-5">
+              <div id="card" class="card d-flex flex-row align-items-center">
                   <img src="img/card-img/course-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -120,8 +116,8 @@
                   </div>
                 </div>
           </div>
-          <div class="col-lg-6">
-              <div class="card d-flex flex-row align-items-center">
+          <div class="col-lg-6 mt-5">
+              <div id="card" class="card d-flex flex-row align-items-center">
                   <img src="img/card-img/course-4.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -130,30 +126,26 @@
                   </div>
                 </div>
           </div>
-      </div>
-  </div>
-  <div class="container my-5">
-      <div class="row">
-          <div class="col-lg-6">
-              <div class="card d-flex flex-row d-flex align-items-center">
-                  <img src="img/card-img/course-5.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h1>Price : $40</h1>
-                  </div>
+          <div class="col-lg-6 mt-5">
+            <div id="card" class="card d-flex flex-row d-flex align-items-center">
+                <img src="img/card-img/course-5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h1>Price : $40</h1>
                 </div>
-          </div>
-          <div class="col-lg-6">
-              <div class="card d-flex flex-row d-flex align-items-center">
-                  <img src="img/card-img/course-6.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <h1>Price : $40</h1>
-                  </div>
+              </div>
+        </div>
+        <div  class="col-lg-6 mt-5">
+            <div id="card" class="card d-flex flex-row d-flex align-items-center">
+                <img src="img/card-img/course-6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h1>Price : $40</h1>
                 </div>
-          </div>
+              </div>
+        </div>
       </div>
       <button id="viwe" class="btn btn-primary my-5">See More Courses</button>
   </div>
@@ -190,16 +182,20 @@
 </section>
 <!-- Explore Institute end -->
 <!-- sign-up start -->
-<div class="container bg-primary d-flex justify-content-between align-items-center p-5">
-  <div class="row text-light">
-    <h1>Ready to join?</h1>
-    <p>It is a long established fact that a reader will be distracted by the <br>
-      readable content of a page when looking at its layout</p>
+<section>
+  <div class="container bg-primary d-flex align-items-center p-5">
+    <div id="sign-up" class="text-light">
+      <div class="col-lg-6 cols-md-12 cols-sm-12">
+        <h1>Ready to join?</h1>
+        <p>It is a long established fact that a reader will be distracted by the <br>
+        readable content of a page when looking at its layout</p>
+      </div>
+    </div>
+    <div class="col-lg-6 cols-md-12 cols-sm-12  d-block">
+      <button class="btn btn-light text-primary  fw-bold fs-3">Sign up</button>
+    </div>
   </div>
-  <div>
-    <button class="btn btn-light text-primary  fw-bold fs-3">Sign up</button>
-  </div>
-</div>
+</section>
 <!-- sign-up end -->
 <!-- Successfull Students start -->
 <section>
@@ -209,8 +205,8 @@
     <p>It is a long established fact that a reader will be distracted by the <br>
       readable content of a page when looking at its layout.</p>
     
-      <div class="row row-cols-md-4 cols-sm-12 g-4">
-        <div class="col">
+      <div class="row row-cols-md-4 row-cols-sm-12 g-4">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/a.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -219,7 +215,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -228,7 +224,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/9.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -237,7 +233,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card">
             <img src="img/3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -262,7 +258,7 @@
     <div class="testimonial">
       <div class="small-container">
           <div class="row">
-              <div class="col-3">
+              <div id="rating" class="col-lg-3 col-md-12 col-sm-12">
                   <i class="fa-solid fa-quote-left"></i>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div class="rating">
@@ -275,7 +271,7 @@
                   <img src="img/user-1.png">
                   <h3>Sean Parker</h3>
               </div>
-              <div class="col-3">
+              <div id="rating" class="col-lg-3 col-md-12 col-sm-12 ">
                   <i class="fa-solid fa-quote-left"></i>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div class="rating">
@@ -288,7 +284,7 @@
                   <img src="img/user-2.png">
                   <h3>Mike Smith</h3>
               </div>
-              <div class="col-3">
+              <div id="rating" class="col-lg-3 col-md-12 col-sm-12">
                   <i class="fa-solid fa-quote-left"></i>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <div class="rating">
