@@ -1,0 +1,57 @@
+/* company */
+.Brands{
+    margin: 100px auto;
+}
+.col-lg-12{
+    display: flex;
+    justify-content: space-around;
+}
+.col-lg-12 img{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-lg-12 img:hover{
+    filter: grayscale(0);
+    transition: all 1s;
+}
+#1{
+    display: flex;
+    margin: 0 50%;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-left: 20px;
+}
+.testimonial .row{
+    display: flex;
+    justify-content: center;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa-quote-left{
+    color: #ff523b;
+    font-size: 34px;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.testimonial h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
