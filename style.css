@@ -14,10 +14,12 @@
     filter: grayscale(0);
     transition: all 1s;
 }
-#1{
+
+#viwe{
     display: flex;
-    margin: 0 50%;
+    margin: 0 auto;
 }
+/* student feedback */
 .testimonial{
     padding-top: 100px;
 }
@@ -54,4 +56,46 @@
     font-weight: 600;
     color: #555;
     font-size: 16px;
+}
+
+
+/* footer */
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    text-align: center;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.social-icon{
+    font-size: 30px;
+    padding: 25px;
+    color: #8a8a8a;
+}
+
+/* responsive  */
+
+@media (max-width: 768px) {
+    .Brands{
+        display: none;
+    }
+    #menu-btn{
+        display: none;
+    }
+}
+@media (max-width: 576px) {
+    .Brands{
+        display: none;
+    }
+    #menu-btn{
+        display: none;
+    }
 }
