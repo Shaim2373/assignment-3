@@ -19,6 +19,28 @@
     display: flex;
     margin: 0 auto;
 }
+#brand-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* learning-institute */
+#learning-institute{
+    background-color: #F4FAFD;
+}
+.institute h2{
+    margin-right: 43px;
+}
+.col-lg-6.cols-md-6.cols-sm-12 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.institute {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 /* student feedback */
 .testimonial{
     padding-top: 100px;
